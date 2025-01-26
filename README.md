@@ -1,0 +1,3 @@
+# Objective-C Retain Cycle in dealloc Method
+
+This repository demonstrates a common error in Objective-C memory management: creating a retain cycle within a custom `dealloc` method.  This example showcases the error and its solution. The error stems from improper use of retain and release, leading to the object never being deallocated which results in a memory leak.  The solution involves careful management of object lifecycles and ensuring that no retain cycles are introduced.
